@@ -1,0 +1,26 @@
+{
+    "name": "lukos/yii2-stripepayment",
+    "description": "Stripe payment extension for Yii 2.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget"
+    ],
+    "homepage": "https://github.com/lukos/yii2-stripepayment",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Briner",
+            "homepage": "http://lukieb.blogspot.co.uk/"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lukos\\stripepayment\\": ""
+        }
+    }
+}
